@@ -1,0 +1,158 @@
+@media only screen and (min-width: 768px) {
+  .flareFirstSection {
+    position: absolute;
+    margin-top: -13rem;
+    user-select: none;
+  }
+
+  .abstractFirstSection {
+    position: absolute;
+    margin-top: -15rem;
+    width: 1920px;
+  }
+
+  .Container {
+    flex: 1;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    .containerFix {
+      height: 880px;
+    }
+
+    .slogan {
+      position: absolute;
+      margin-top: -34rem;
+      margin-left: -42rem;
+    }
+
+    .sloganMobile {
+      display: none;
+    }
+
+    .candidateName {
+      position: absolute;
+      margin-top: 10rem;
+
+      width: 889px;
+      height: 206px;
+    }
+
+    .candidateNumber {
+      position: absolute;
+      margin-bottom: -33rem;
+
+      width: 399px;
+      height: 125px;
+    }
+
+    .candidateType {
+      position: absolute;
+      margin-bottom: -21rem;
+
+      width: 399px;
+      height: 35px;
+    }
+
+    .psdbLogo {
+      display: none;
+    }
+
+    .candidatePhoto {
+      position: absolute;
+      margin-top: -13rem;
+
+      width: 503px;
+      height: 667px;
+    }
+
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .flareFirstSection {
+    position: absolute;
+    margin-top: -13rem;
+    user-select: none;
+  }
+
+  .abstractFirstSection {
+    position: absolute;
+    margin-top: -15rem;
+    width: 1080px;
+    overflow: hidden;
+  }
+
+  .Container {
+    flex: 1;
+    width: 100%;
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    .containerFix {
+      height: 1900px;
+    }
+
+    .slogan {
+      display: none;
+    }
+
+    .sloganMobile {
+      position: absolute;
+      margin-top: 25rem;
+      margin-left: 6rem;
+
+      width: 648px;
+      height: 329px;
+    }
+
+    .candidateName {
+      position: absolute;
+      margin-top: -100rem;
+
+      width: 980px;
+      height: 231px;
+    }
+
+    .candidateNumber {
+      position: absolute;
+      margin-bottom: -69rem;
+
+      width: 761px;
+      height: 224px;
+    }
+
+    .candidateType {
+      position: absolute;
+      margin-bottom: -91rem;
+
+      width: 749px;
+      height: 57px;
+    }
+
+    .psdbLogo {
+      position: absolute;
+      margin-bottom: -100rem;
+      display: none;
+
+      width: 219px;
+      height: 50px;
+    }
+
+    .candidatePhoto {
+      position: absolute;
+      margin-top: -2rem;
+
+      width: 782px;
+      height: 1000px;
+    }
+  }
+}
