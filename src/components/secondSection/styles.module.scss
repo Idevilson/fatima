@@ -3,9 +3,10 @@
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    align-items: flex-end;
 
     height: 616px;
-    width: 1920px;
+    width: 100%;
 
     background-color: #361b4f;
 
@@ -33,7 +34,7 @@
           justify-content: flex-end;
 
           .imageContainer {
-            margin-top: 4.3rem;
+            margin-top: 7.3rem;
           }
         }
 

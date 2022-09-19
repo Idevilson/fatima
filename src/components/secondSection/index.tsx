@@ -53,6 +53,8 @@ export function SecondSection() {
                                     alt="Foto da candidata"
                                     width={371}
                                     height={461}
+
+                                    layout={"fixed"}
                                     quality={100}
                                 />
                             </div>

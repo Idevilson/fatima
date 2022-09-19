@@ -11,8 +11,8 @@ export function FirstSection(){
                     <Image
                         src="/assets/firstSection/abstract.png"
                         alt="efeito"
-                        width={1920}
-                        height={650}
+                        layout={"fill"}
+                        objectFit={"fill"}
                         quality={100}
                     />
                 </div>
@@ -27,7 +27,7 @@ export function FirstSection(){
                     />
 
                 </div>
-
+                <div className={styles.retangleEffectFirstSection} />
                 <div className={styles.slogan}>
                     <Image
                         src="/assets/firstSection/EGenteNossa.png"
