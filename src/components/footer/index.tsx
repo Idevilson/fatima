@@ -165,13 +165,6 @@ export function Footer() {
                     <h1>
                         LEI Nº9.504/97 - FEDERAÇÃO PSDB - CIDADANIA. CNPJ: 47.548.135/0001-50
                     </h1>
-                    <Image
-                        src="/assets/footer/PSDB.png"
-                        alt="Nome e número da candidata"
-                        width={211}
-                        height={48}
-                        quality={100}
-                    />
                 </div>
             </footer>
         </>
