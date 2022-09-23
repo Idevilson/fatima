@@ -98,6 +98,8 @@
       margin-top: 4rem;
     }
 
+
+
     .textBottomMobile {
       display: none;
       margin-top: 4rem;
@@ -166,7 +168,6 @@
     }
 
     .footerTop {
-
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -178,7 +179,6 @@
       .socialIconsContainer {
         height: 40px;
         margin-left: 7rem;
-
 
         display: flex;
         align-items: center;
@@ -210,17 +210,23 @@
       height: 1260px;
     }
 
+    .numberMobile{
+      z-index: 1;
+      width: 648px;
+      height: 212px;
+    }
+
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     width: 1080px;
-    height: 1260px;
+    height: 1360px;
 
 
     .nameAndNumberMobile{
-      margin-top: 6rem;
       z-index: 1;
+      margin-bottom: 5rem;
     }
 
     .textBottomMobile {
@@ -250,19 +256,17 @@
     }
 
     .footerTopMobile {
-
       display: flex;
       align-items: center;
       justify-content: space-between;
       flex-direction: row;
-      margin-top: 10rem;
+      margin-top: 5rem;
       background-color: #173a88;
       }
     }
 
   .socialIconsContainerMobile {
     height: 40px;
-
     margin-top: 4rem;
     display: flex;
     align-items: center;
@@ -277,6 +281,7 @@
       margin-right: 3px;
     }
   }
+
   .alignIconsMobile:first-child {
     a {
       display: flex;

@@ -147,9 +147,9 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-top: 8rem;
+    margin-top: 25rem;
 
-    height: 1560px;
+    height: 1573px;
     width: 1080px;
 
     background-color: #361b4f;
@@ -162,7 +162,7 @@
 
       h1:first-child {
         color: #ffce00;
-        font-family: Now;
+        font-family: Montserrat;
         font-size: 85px;
         font-weight: 700;
         font-style: normal;
@@ -177,7 +177,7 @@
       }
 
       h1 {
-        font-family: Now;
+        font-family: Montserrat;
         font-size: 55px;
         font-weight: 700;
         font-style: normal;
@@ -193,7 +193,7 @@
 
     .footerMobile {
       display: flex;
-      flex-direction: row;
+      flex-direction: Montserrat;
       justify-content: space-between;
       align-items: center;
       height: 788px;

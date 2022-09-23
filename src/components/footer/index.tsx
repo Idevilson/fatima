@@ -69,6 +69,17 @@ export function Footer() {
                         quality={100}
                     />
                 </div>
+
+                <div className={styles.mumberMobile}>
+                    <Image
+                        src="/assets/footer/numberMobile.png"
+                        alt="número"
+                        width={648}
+                        height={212}
+                        quality={100}
+                    />
+                </div>
+
                 <div className={styles.footerTopMobile}>
                     <Image
                         src="/assets/footer/sigaMobile.png"
@@ -78,6 +89,8 @@ export function Footer() {
                         quality={100}
                     />
                 </div>
+
+
 
                 <div className={styles.logoDoPartido}>
                     <Image
